@@ -1,0 +1,134 @@
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+	background: url(../img/body.jpg) repeat-x 0 1px;
+	color: #000;
+}
+
+a {
+	color: #06c;
+}
+
+a:hover {
+	color: #000;
+}
+
+h1 {
+	background: url(../img/ft_logo.png) no-repeat left center;
+	color: #0d3692;
+	font-size: 40px;
+	line-height: 60px;
+	padding: 0 0 5px 70px;
+	height: 60px;
+}
+
+h1 i {
+	font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+	font-family: Cambria, Georgia, serif;
+}
+
+/* `Misc Classes
+----------------------------------------------------------------------------------------------------*/
+
+.container_16 {
+	padding: 20px 0 0;
+}
+
+.align_center {
+	text-align: center;
+}
+
+.align_right {
+	text-align: right;
+}
+
+.aside {
+	font-size: 11px;
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+/* `Navigation
+----------------------------------------------------------------------------------------------------*/
+
+#nav {
+	list-style: none;
+	overflow: hidden;
+}
+
+#nav,
+#nav a {
+	background-image: url(../img/1px_gray.gif);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#nav li {
+	text-align: center;
+}
+
+#nav a {
+	background-color: #eee;
+	border: 1px solid #999;
+	border-bottom-width: 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	color: #999;
+	display: block;
+	line-height: 30px;
+}
+
+#page_ #nav_home,
+#page_about #nav_about,
+#page_calendar #nav_calendar,
+#page_worship #nav_worship,
+#page_ministries #nav_ministries,
+#page_groups #nav_groups,
+#page_contact #nav_contact,
+#page_directory #nav_directory {
+	background: #fff;
+	color: #f60;
+}
+
+#nav a:hover {
+	background-color: #f6f6f6;
+	text-decoration: underline;
+}
+
+/* `Footer
+----------------------------------------------------------------------------------------------------*/
+
+#footer {
+	color: #999;
+	font-size: 12px;
+}
+
+#footer a {
+	color: #999;
+}
+
+#footer a:hover {
+	color: #000;
+}

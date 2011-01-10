@@ -1,0 +1,180 @@
+/* F1 Listee Styles
+----------------------------------------------------------------------------------------------------*/
+
+/* Hide me */
+#f1_listee_form label {
+	display: block;
+	font-size: 0;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+}
+
+#f1_listee_q {
+	width: 250px;
+}
+
+#f1_listee_form p {
+	background: #eee;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	padding: 20px;
+}
+
+/* Hide me */
+.f1_listee_sort_date {
+	display: none;
+	visibility: hidden;
+}
+
+.f1_listee_float_left {
+	float: left;
+}
+
+.f1_listee_float_right {
+	float: right;
+}
+
+.f1_listee_mute {
+	color: #ccc;
+}
+
+#f1_listee_table {
+	font: 11px Verdana, sans-serif;
+	border-collapse: collapse;
+	cursor: default;
+	width: 100%;
+}
+
+#f1_listee_table * {
+	vertical-align: top;
+}
+
+#f1_listee_table caption {
+	font: 17px Cambria, Georgia, serif;
+	overflow: hidden;
+	padding: 0 0 10px;
+	text-align: left;
+}
+
+#f1_listee_table thead th,
+#f1_listee_table tbody td {
+	padding: 4px 10px 6px 5px;
+}
+
+#f1_listee_table tbody td.alt {
+	background: url(../img/sort_col.png);
+}
+
+#f1_listee_table thead tr {
+	background: #ccc url(../img/thead_tr.gif) repeat-x;
+}
+
+#f1_listee_table thead th {
+	border: 1px solid;
+	border-color: #eee #ccc #999;
+	cursor: default;
+	font-weight: normal;
+	text-align: left;
+}
+
+#f1_listee_table thead th.forwardSort,
+#f1_listee_table thead th.reverseSort {
+	background-repeat: no-repeat;
+	background-position: right 10px;
+}
+
+#f1_listee_table thead th.forwardSort {
+	background-image: url(../img/sort_up.gif);
+}
+
+#f1_listee_table thead th.reverseSort {
+	background-image: url(../img/sort_down.gif);
+}
+
+#f1_listee_table thead th.sortable-numeric:hover a,
+#f1_listee_table thead th.sortable-text:hover a {
+	text-decoration: underline;
+}
+
+#f1_listee_table thead th.sortable-numeric a,
+#f1_listee_table thead th.sortable-text a {
+	color: #000;
+}
+
+#f1_listee_table thead th.sortable-numeric span,
+#f1_listee_table thead th.sortable-text span {
+	display: none;
+	visibility: hidden;
+}
+
+#f1_listee_table thead th a {
+	cursor: default;
+	text-decoration: none;
+}
+
+#f1_listee_table tbody tr.alt {
+	background: #edf3fe;
+}
+
+#f1_listee_table tbody tr:last-child td {
+	border-bottom: 1px solid #ddd;
+}
+
+#f1_listee_table tfoot td {
+	padding: 10px 0 0;
+}
+
+#f1_listee_table tfoot li {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0 5px 5px 0;
+}
+
+#f1_listee_table tfoot a {
+	background: #eee;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: #666;
+	display: block;
+	font-size: 10px;
+	padding: 2px 0;
+	text-align: center;
+	text-decoration: none;
+	width: 20px;
+}
+
+#f1_listee_table tfoot a:hover {
+	background: #ccc;
+	color: #000;
+}
+
+#f1_listee_table tfoot .f1_listee_show_all {
+	padding-left: 5px;
+	padding-right: 5px;
+	width: auto;
+}
+
+#f1_listee_enter_term,
+#f1_listee_no_results {
+	background-color: #ffd;
+	background-position: 20px center;
+	background-repeat: no-repeat;
+	border: 1px solid #ccc;
+	font: 20px/70px Cambria, Georgia, serif;
+	padding: 0 0 0 80px;
+	height: 70px;
+}
+
+#f1_listee_enter_term {
+	color: #090;
+	background-image: url(../img/search.png);
+}
+
+#f1_listee_no_results {
+	color: #900;
+	background-image: url(../img/alert.png);
+}
